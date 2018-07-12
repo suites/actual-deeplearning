@@ -2,24 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c30d4ad-0f09-40e2-97a7-5b7073efc5ac" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ch5/keras/bmi.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch5/keras/keras-bmi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch5/keras/keras-mnist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch5/pandas_numpy/np-test-calc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch5/pandas_numpy/pd-test-df.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch5/pandas_numpy/pd-test-filter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch5/pandas_numpy/pd-test-key.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch5/pandas_numpy/pd-test-norm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch5/pandas_numpy/pd-test-norm2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch5/pandas_numpy/pd-test-rot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch5/pandas_numpy/pd-test-s.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch5/pandas_numpy/pd-test-sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch5/tensorboard/tb-add.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch5/tensorboard/tb-mul.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch5/tensorflow/bmi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/actual-deeplearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/actual-deeplearning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch5/tensorflow/bmi.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ch5/tensorflow/bmi.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch6/bayes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch6/bayes_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch6/konlpy-basic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch6/toji_count.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch6/word2vec-toji.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,11 +18,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pd-test-norm2.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ch5/pandas_numpy/pd-test-norm2.py">
+      <file leaf-file-name="bayes_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch6/bayes_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+            <state relative-caret-position="323">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bayes.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch6/bayes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="703">
+              <caret line="37" column="37" lean-forward="true" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,6 +51,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>bclass</find>
+      <find>것</find>
+      <find>쌍글</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -81,6 +83,11 @@
         <option value="$PROJECT_DIR$/ch5/pandas_numpy/np-test-calc.py" />
         <option value="$PROJECT_DIR$/ch5/pandas_numpy/pd-test-norm.py" />
         <option value="$PROJECT_DIR$/ch5/pandas_numpy/pd-test-norm2.py" />
+        <option value="$PROJECT_DIR$/ch6/konlpy-basic.py" />
+        <option value="$PROJECT_DIR$/ch6/toji_count.py" />
+        <option value="$PROJECT_DIR$/ch6/word2vec-toji.py" />
+        <option value="$PROJECT_DIR$/ch6/bayes.py" />
+        <option value="$PROJECT_DIR$/ch6/bayes_test.py" />
       </list>
     </option>
   </component>
@@ -108,24 +115,7 @@
             <path>
               <item name="actual-deeplearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="actual-deeplearning" type="462c0819:PsiDirectoryNode" />
-              <item name="ch4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="actual-deeplearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="actual-deeplearning" type="462c0819:PsiDirectoryNode" />
-              <item name="ch4" type="462c0819:PsiDirectoryNode" />
-              <item name="bmi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="actual-deeplearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="actual-deeplearning" type="462c0819:PsiDirectoryNode" />
-              <item name="ch5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="actual-deeplearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="actual-deeplearning" type="462c0819:PsiDirectoryNode" />
-              <item name="ch5" type="462c0819:PsiDirectoryNode" />
-              <item name="pandas_numpy" type="462c0819:PsiDirectoryNode" />
+              <item name="ch6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -139,12 +129,12 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\00.Deeplearning\actual-deeplearning\ch5\keras" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\00.Deeplearning\actual-deeplearning\ch5\keras" />
       <recent name="D:\00.Deeplearning\actual-deeplearning\ch3\excel" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\00.Deeplearning\actual-deeplearning\ch5\keras" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -159,8 +149,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pd-test-norm2">
-    <configuration name="np-test-calc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.bayes_test">
+    <configuration name="bayes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="actual-deeplearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -168,17 +158,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch5/pandas_numpy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch5/pandas_numpy/np-test-calc.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch6/bayes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="pd-test-filter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="bayes_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="actual-deeplearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -186,17 +176,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch5/pandas_numpy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch5/pandas_numpy/pd-test-filter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch6/bayes_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="pd-test-norm2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="konlpy-basic" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="actual-deeplearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -204,17 +194,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch5/pandas_numpy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch5/pandas_numpy/pd-test-norm2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch6/konlpy-basic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="pd-test-rot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="toji_count" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="actual-deeplearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -222,17 +212,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch5/pandas_numpy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch5/pandas_numpy/pd-test-rot.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch6/toji_count.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="pd-test-sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="word2vec-toji" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="actual-deeplearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -240,30 +230,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch5/pandas_numpy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch5/pandas_numpy/pd-test-sort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch6/word2vec-toji.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.pd-test-filter" />
-      <item itemvalue="Python.pd-test-sort" />
-      <item itemvalue="Python.pd-test-rot" />
-      <item itemvalue="Python.np-test-calc" />
-      <item itemvalue="Python.pd-test-norm2" />
+      <item itemvalue="Python.konlpy-basic" />
+      <item itemvalue="Python.toji_count" />
+      <item itemvalue="Python.word2vec-toji" />
+      <item itemvalue="Python.bayes" />
+      <item itemvalue="Python.bayes_test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.pd-test-norm2" />
-        <item itemvalue="Python.np-test-calc" />
-        <item itemvalue="Python.pd-test-rot" />
-        <item itemvalue="Python.pd-test-sort" />
-        <item itemvalue="Python.pd-test-filter" />
+        <item itemvalue="Python.bayes_test" />
+        <item itemvalue="Python.bayes" />
+        <item itemvalue="Python.word2vec-toji" />
+        <item itemvalue="Python.toji_count" />
+        <item itemvalue="Python.konlpy-basic" />
       </list>
     </recent_temporary>
   </component>
@@ -303,18 +293,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24816984" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24791667" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32961783" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32961783" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3287234" />
       <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3287234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39968154" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39893618" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -334,10 +324,51 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ch6/word2vec-toji.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch6/word2vec-toji.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch6/konlpy-basic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch6/konlpy-basic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch5/pandas_numpy/pd-test-norm2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ch3/db/sqlite3-test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -345,16 +376,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="152">
-            <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://C:/ProgramData/Anaconda3/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
@@ -383,16 +405,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="152">
-            <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch3/db/sqlite3-test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -407,23 +419,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/bmi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" lean-forward="true" selection-end-line="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch5/tensorflow/bmi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="11" lean-forward="true" selection-end-line="48" />
-          <folding>
-            <element signature="e#29#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/bmi.py" />
+    <entry file="file://$PROJECT_DIR$/ch5/tensorflow/bmi" />
     <entry file="file://$PROJECT_DIR$/ch5/tensorflow/bmi.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2280" />
@@ -450,19 +447,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch4/bmi/bmi-create.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch5/keras/bmi.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch5/keras/keras-bmi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-190">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -470,9 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -494,9 +479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
           <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -518,9 +500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -547,8 +526,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ch5/pandas_numpy/pd-test-norm2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        <state relative-caret-position="152">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch6/toji.model">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2126354" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch6/BEXX0003.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65512">
+          <caret line="3520" column="69" selection-start-line="3520" selection-start-column="67" selection-end-line="3520" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch6/toji.wakati">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65075">
+          <caret line="3425" column="2" lean-forward="true" selection-start-line="3425" selection-start-column="2" selection-end-line="3425" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch6/konlpy-basic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch6/toji_count.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch6/word2vec-toji.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch6/bayes_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch6/bayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" column="37" lean-forward="true" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
