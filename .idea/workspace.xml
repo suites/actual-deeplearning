@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c30d4ad-0f09-40e2-97a7-5b7073efc5ac" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ch6/bayes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch6/bayes_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch6/konlpy-basic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch6/toji_count.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch6/word2vec-toji.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch6/mlp2-seq.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,23 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="bayes_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch6/bayes_test.py">
+      <file leaf-file-name="mlp2-seq.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch6/mlp2-seq.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bayes.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ch6/bayes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="37" column="37" lean-forward="true" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="410">
+              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
             </state>
           </provider>
         </entry>
@@ -88,6 +72,8 @@
         <option value="$PROJECT_DIR$/ch6/word2vec-toji.py" />
         <option value="$PROJECT_DIR$/ch6/bayes.py" />
         <option value="$PROJECT_DIR$/ch6/bayes_test.py" />
+        <option value="$PROJECT_DIR$/ch6/aa.py" />
+        <option value="$PROJECT_DIR$/ch6/mlp2-seq.py" />
       </list>
     </option>
   </component>
@@ -149,7 +135,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.bayes_test">
+  <component name="RunManager" selected="Python.mlp2-seq">
+    <configuration name="aa" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="actual-deeplearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\deeplearning\actual-deeplearning\ch6\mlp2-seq.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="bayes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="actual-deeplearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -186,7 +190,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="konlpy-basic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mlp2-seq" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="actual-deeplearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -198,25 +202,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch6/konlpy-basic.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="toji_count" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="actual-deeplearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch6" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch6/toji_count.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch6/mlp2-seq.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -241,19 +227,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.konlpy-basic" />
-      <item itemvalue="Python.toji_count" />
       <item itemvalue="Python.word2vec-toji" />
       <item itemvalue="Python.bayes" />
       <item itemvalue="Python.bayes_test" />
+      <item itemvalue="Python.aa" />
+      <item itemvalue="Python.mlp2-seq" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mlp2-seq" />
+        <item itemvalue="Python.aa" />
         <item itemvalue="Python.bayes_test" />
         <item itemvalue="Python.bayes" />
         <item itemvalue="Python.word2vec-toji" />
-        <item itemvalue="Python.toji_count" />
-        <item itemvalue="Python.konlpy-basic" />
       </list>
     </recent_temporary>
   </component>
@@ -289,18 +275,26 @@
       <option name="project" value="LOCAL" />
       <updated>1529940968539</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ch6 update">
+      <created>1531372189561</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1531372189562</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24791667" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24791667" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3287234" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3287234" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3287234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -320,11 +314,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add new files" />
     <MESSAGE value="edit README" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit README" />
+    <MESSAGE value="ch6 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="ch6 update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -550,17 +545,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch6/konlpy-basic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch6/toji_count.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -574,6 +565,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ch6/bayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ch6/bayes_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -581,13 +582,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch6/bayes.py">
+    <entry file="file://$PROJECT_DIR$/ch6/konlpy-basic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" column="37" lean-forward="true" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch6/mlp2-seq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
         </state>
       </provider>
     </entry>
