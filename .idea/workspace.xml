@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c30d4ad-0f09-40e2-97a7-5b7073efc5ac" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ch6/lev-distance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch6/ngram-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch6/markov.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +14,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ngram-test.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ch6/ngram-test.py">
+      <file leaf-file-name="markov.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch6/markov.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="247">
+              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,6 +80,7 @@
         <option value="$PROJECT_DIR$/ch6/mlp3-classify.py" />
         <option value="$PROJECT_DIR$/ch6/lev-distance.py" />
         <option value="$PROJECT_DIR$/ch6/ngram-test.py" />
+        <option value="$PROJECT_DIR$/ch6/markov.py" />
       </list>
     </option>
   </component>
@@ -139,25 +142,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ngram-test">
-    <configuration name="aa" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="actual-deeplearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch6" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\deeplearning\actual-deeplearning\ch6\mlp2-seq.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.markov">
     <configuration name="lev-distance" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="actual-deeplearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,6 +156,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch6/lev-distance.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="markov" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="actual-deeplearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch6/markov.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -231,19 +234,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.aa" />
       <item itemvalue="Python.mlp2-seq" />
       <item itemvalue="Python.mlp3-classify" />
       <item itemvalue="Python.lev-distance" />
       <item itemvalue="Python.ngram-test" />
+      <item itemvalue="Python.markov" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.markov" />
         <item itemvalue="Python.ngram-test" />
         <item itemvalue="Python.lev-distance" />
         <item itemvalue="Python.mlp3-classify" />
         <item itemvalue="Python.mlp2-seq" />
-        <item itemvalue="Python.aa" />
       </list>
     </recent_temporary>
   </component>
@@ -293,20 +296,26 @@
       <option name="project" value="LOCAL" />
       <updated>1531374810762</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ch6 update">
+      <created>1532935603734</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1532935603734</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24816984" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24816984" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32961783" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32961783" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32961783" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -345,16 +354,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ch6/bayes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch6/mlp3-classify.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -662,8 +661,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ch6/ngram-test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="589">
+          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch6/markov.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
