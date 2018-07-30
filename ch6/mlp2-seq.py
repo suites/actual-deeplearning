@@ -1,4 +1,5 @@
 import os, glob, json
+import codecs
 
 root_dir = './newstext'
 dic_file = root_dir + '/word-dic.json'
@@ -36,7 +37,7 @@ def register_dic():
 
 def count_file_freq(fname):
     cnt = [0 for n in range(word_dic['_MAX'])]
-    with open(fname, 'r') as f:
+    with codecs.open(fname, 'r', 'utf-8') as f:
         text = f.read().strip()
         ids = text_to_ids(text)
         for wid in ids:
@@ -55,7 +56,7 @@ def count_freq(limit = 0):
             continue
         cat_idx = len(cat_names)
         cat_names.append(cat)
-        files = glob.glob()
+        files = glob.glob(cat_dir+"/*.wakati")
         i = 0
         for path in files:
             print(path)
